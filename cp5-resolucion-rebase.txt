@@ -1,0 +1,15 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-4-introduccion-a-git-rebase-matchias$ git log --oneline --all
+1dc37e9 (HEAD -> feature-notas) Modifica notas en feature-notas
+738b8c3 (main) Crea notas en main
+a1b86ab Añade notas iniciales de la funcionalidad
+0fecf43 Actualiza changelog a v1.1
+2b63824 Crea changelog con versión inicial
+cf32735 (origin/main, origin/HEAD) add deadline
+20f2714 Initial commit
+mathias@mathias-Virtu
+Resolví el conflicto editando notas.md y eliminando los marcadores.
+Combiné los cambios de ambas ramas manualmente.
+Usaría git rebase --abort cuando:
+Me equivoque resolviendo conflictos
+El rebase se complique demasiado
+Quiera volver al estado original sin cambios

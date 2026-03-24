@@ -1,0 +1,9 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-4-introduccion-a-git-rebase-matchias$ git log --oneline --all
+0fecf43 (HEAD -> main) Actualiza changelog a v1.1
+36348fc (feature-notas) Añade notas iniciales de la funcionalidad
+2b63824 Crea changelog con versión inicial
+cf32735 (origin/main, origin/HEAD) add deadline
+20f2714 Initial commi
+main tiene un commit extra: Actualiza changelog a v1.1
+feature-notas tiene un commit propio: Añade notas iniciales
+Ambas ramas han divergido porque cada una tiene cambios que la otra no tiene.

@@ -1,0 +1,33 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-4-introduccion-a-git-rebase-matchias$ git status
+rebase interactivo en progreso; sobre 738b8c3
+El último comando realizado (1 comando realizado):
+   pick a1b86ab Añade notas iniciales de la funcionalidad
+Siguiente comando a realizar (1 comando restante):
+   pick 1dc37e9 Modifica notas en feature-notas
+  (usa "git rebase --edit-todo" para ver y editar)
+Estás aplicando un rebase de la rama 'feature-notas' sobre '738b8c3.
+  (corrige los conflictos y ejecuta "git rebase --continue")
+  (usa "git rebase --skip" para omitir este parche)
+  (usa "git rebase --abort" para volver a tu rama original)
+
+Rutas no fusionadas:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+  (usa "git add <archivo>..." para marcar una resolución)
+        agregados por ambos:    notas.md
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        con
+        cp1-estado-inicial-rebase.txt
+        cp2-divergencia.txt
+        cp3-despues-rebase.tx
+
+sin cambios agregados al commit (usa "git add" y/o "git commit -a")
+
+# Notas de la funcionalidad
+
+<<<<<<< HEAD
+- Nota 1: versión desde main.
+=======
+- Nota 1: pendiente de completar.
+>>>>>>> a1b86ab (Añade notas iniciales de la funcionalidad)

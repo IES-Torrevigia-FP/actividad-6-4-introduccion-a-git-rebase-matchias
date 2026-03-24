@@ -1,0 +1,8 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-4-introduccion-a-git-rebase-matchias$ git branch
+* feature-notas
+  main
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-4-introduccion-a-git-rebase-matchias$ git log --oneline --all
+36348fc (HEAD -> feature-notas) Añade notas iniciales de la funcionalidad
+2b63824 (main) Crea changelog con versión inicial
+cf32735 (origin/main, origin/HEAD) add deadline
+20f2714 Initial commi

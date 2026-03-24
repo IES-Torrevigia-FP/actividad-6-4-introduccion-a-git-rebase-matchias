@@ -1,0 +1,10 @@
+mathias@mathias-VirtualBox:~/Documentos/dev/actividad-6-4-introduccion-a-git-rebase-matchias$ git log --oneline --all
+a1b86ab (HEAD -> feature-notas) Añade notas iniciales de la funcionalidad
+0fecf43 (main) Actualiza changelog a v1.1
+2b63824 Crea changelog con versión inicial
+cf32735 (origin/main, origin/HEAD) add deadline
+20f2714 Initial commi
+El commit de feature-notas se reaplica encima de main.
+Cambia el hash del commit historia reescrita.
+El historial ahora es lineal sin ramas paralelas.
+Parece que el trabajo se hizo después de main
